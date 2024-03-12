@@ -1,11 +1,11 @@
-package ec.edu.espe.producto;
+package ec.edu.espe.venta;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProductoApplication {
+public class VentaApplication {
     public static void main(String[] args) {
-        SpringApplication.run(ProductoApplication.class, args);
+        SpringApplication.run(VentaApplication.class, args);
     }
 }

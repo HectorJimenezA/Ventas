@@ -20,6 +20,9 @@ public class Venta {
     @Field("valor_total")
     private String valorTotal;
 
+    @Field("estado")
+    private String estado;
+
     @Override
     public int hashCode() {
         final int prime = 31;
