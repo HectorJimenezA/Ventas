@@ -7,9 +7,9 @@ logging:
 
 spring:
   application:
-    name: Productos-Application
+    name: Ventas-Application
   data:
     mongodb:
       uri: mongodb+srv://admin:admin123@cluster0.0lmgwdx.mongodb.net/
-      database: Productos
+      database: Ventas
       auto-index-creation: true

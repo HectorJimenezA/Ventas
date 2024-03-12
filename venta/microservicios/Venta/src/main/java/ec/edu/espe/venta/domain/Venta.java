@@ -20,7 +20,6 @@ public class Venta {
     @Field("valor_total")
     private String valorTotal;
 
-
     @Override
     public int hashCode() {
         final int prime = 31;
@@ -37,7 +36,7 @@ public class Venta {
             return false;
         if (getClass() != obj.getClass())
             return false;
-        Productos other = (Productos) obj;
+        Venta other = (Venta) obj;
         if (id == null) {
             if (other.id != null)
                 return false;
@@ -45,5 +44,8 @@ public class Venta {
             return false;
         return true;
     }
+
+
+   
     
 }
